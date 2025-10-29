@@ -114,6 +114,7 @@ function isInChina(latlng){const{lat,lng}=latlng;return(lat>=18&&lat<=53&&lng>=7
                 position: 'bottomright',
                 prefix: '🐳'
             }).addTo(map);
+           google1.addTo(map);
             var CustomControl = L.Control.extend({
                 onAdd: function(map) {
                     var button = L.DomUtil.create('div');
